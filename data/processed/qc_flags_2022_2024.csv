@@ -1,0 +1,4 @@
+date,station_name,city,station_code,pollutant,value,flag,reason
+2024-04-27,Sanathnagar,Hyderabad,294,PM2.5,512.25,Potential data-quality anomaly,Repeated exact PM2.5 value of 887 µg/m³ observed across a prolonged hourly period in the raw source data.
+2024-04-28,Sanathnagar,Hyderabad,294,PM2.5,887.0,Potential data-quality anomaly,Repeated exact PM2.5 value of 887 µg/m³ observed across a prolonged hourly period in the raw source data.
+2024-04-29,Sanathnagar,Hyderabad,294,PM2.5,493.1931818181818,Potential data-quality anomaly,Repeated exact PM2.5 value of 887 µg/m³ observed across a prolonged hourly period in the raw source data.

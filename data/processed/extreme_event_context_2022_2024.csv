@@ -1,0 +1,9 @@
+city,extreme_date,season,highest_station,highest_station_pm25,second_station,second_station_pm25,city_extreme_pm25,surrounding_6day_avg_pm25,increase_pct,classification,context
+Bengaluru,2022-12-18,Winter,BTM Layout,106.72458333333331,Peenya,105.24625,105.98541666666664,73.37468750000001,44.44411319185058,A - Broad & Sustained,Winter
+Chennai,2023-11-12,Post-Monsoon,Manali,205.8847463768116,Alandur Bus Depot,140.91864583333333,173.40169610507246,47.12167013888888,267.9871608836852,A - Broad & Sustained,Diwali day
+Delhi,2024-11-18,Post-Monsoon,Anand Vihar,672.5833333333334,ITO,235.72208333333333,454.15270833333335,335.56762228260874,35.33865551273433,A - Broad & Sustained,GRAP Stage IV
+Hyderabad,2024-04-28,Summer,Sanathnagar,887.0,Central University,27.541666666666668,457.2708333333333,109.38634154040405,318.0328429435874,D - Potential Data-Quality Anomaly,Potential data-quality anomaly
+Kolkata,2022-01-21,Winter,Rabindra Bharati University,224.93166666666664,Victoria,137.14434782608697,181.0380072463768,124.3424157334212,45.59634070042986,A - Broad & Sustained,Winter
+Lucknow,2024-11-01,Post-Monsoon,Kendriya Vidyalaya,256.75291666666664,Lalbagh,168.25708333333333,212.505,121.79009865738128,74.48462752117231,A - Broad & Sustained,1 day after Diwali
+Mumbai,2022-01-23,Winter,Colaba,271.6379166666667,Borivali East,103.33166666666666,187.48479166666667,68.77215277777778,172.61730816029987,B - Broad but Spatially Uneven,Winter
+Patna,2024-11-27,Post-Monsoon,IGSC Planetarium Complex,437.1145833333333,Rajbansi Nagar,81.09166666666667,259.103125,108.5628592995169,138.66645247906894,B - Broad but Spatially Uneven,Post-Monsoon

@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.log
+.ipynb_checkpoints/
+.vscode/
+
+# Raw source datasets
+data/raw/
+
+# Intermediate station-level processed datasets
+data/processed/*_hourly_2022_2024.csv
+data/processed/*_daily_2022_2024.csv
+
+# Temporary validation outputs
+data/processed_validation/
