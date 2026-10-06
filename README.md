@@ -258,6 +258,26 @@ The Power BI dashboard is organized into four pages:
 - Validation notes
 - Final analyst explanations
 
+## Power BI Dashboard Screenshots
+
+### Executive Overview
+
+![Executive Overview](screenshots/executive-overview.png)
+
+### City & Seasonal Analysis
+
+![City & Seasonal Analysis](screenshots/city-seasonal-analysis.png)
+
+### Pollution Events & Policy Analysis
+
+![Pollution Events & Policy Analysis](screenshots/pollution-policy-analysis.png)
+
+### AI-Assisted Spike Explanation
+
+![AI-Assisted Spike Explanation](screenshots/ai-spike-explanation.png)
+
+![AI-Assisted Spike Explanation — Continued](screenshots/ai-spike-explanation-continued.png)
+
 ## Excel Analysis
 
 Excel was used as a supporting tool to review and inspect exported analytical datasets.
