@@ -301,6 +301,13 @@ air quality and pollution analytics/
 ├── prompts/
 │   └── spike_explanation_prompt.txt
 │
+├── screenshots/
+│   ├── executive-overview.png
+│   ├── city-seasonal-analysis.png
+│   ├── pollution-policy-analysis.png
+│   ├── ai-spike-explanation.png
+│   └── ai-spike-explanation-continued.png
+│
 ├── src/
 │   ├── analysis.py
 │   ├── clean_anand_vihar.py
