@@ -8,6 +8,21 @@ The analysis covers 2022–2024 and combines data cleaning, SQL analysis, Python
 
 The project focuses on city-level pollution differences, seasonal patterns, pollution spikes, Diwali-related changes, and the observed changes around Delhi's GRAP Stage IV period.
 
+## Project at a Glance
+
+| | Details |
+|---|---|
+| **Study period** | 2022–2024 |
+| **Cities analyzed** | 8 |
+| **Monitoring stations** | 16 |
+| **Raw data frequency** | Hourly |
+| **Primary analytical level** | Daily station-level |
+| **Primary pollution indicator** | PM2.5 |
+| **Data source** | CPCB CAAQMS |
+| **Tools** | Python, PostgreSQL, SQL, Power BI, Excel |
+| **Key analysis** | City trends, seasonality, pollution spikes, Diwali, GRAP Stage IV |
+| **AI component** | AI-assisted spike explanations with human validation |
+
 ## Objectives
 
 - Analyze air pollution levels across selected Indian cities.
