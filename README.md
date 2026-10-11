@@ -326,9 +326,9 @@ The application reads the processed CSV files stored in `data/processed/`. Keep 
 
 ### Deployment
 
-The application is being prepared for deployment using Streamlit Community Cloud's free tier. The public demo link will be added here after deployment and verification are complete.
+The application is deployed using Streamlit Community Cloud's free tier. The public demo has been deployed and verified.
 
-**Live demo:** To be added after successful deployment.
+**Live demo:** https://air-quality-pollution-analytics.streamlit.app
 
 ## Excel Analysis
 
