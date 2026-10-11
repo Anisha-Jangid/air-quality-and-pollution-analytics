@@ -278,6 +278,58 @@ The Power BI dashboard is organized into four pages:
 
 ![AI-Assisted Spike Explanation — Continued](screenshots/ai-spike-explanation-continued.png)
 
+## Streamlit Interactive Demo
+
+In addition to the Power BI dashboard, this project includes a Streamlit application that provides an interactive way to explore the cleaned air-quality data and the project's analytical findings.
+
+The Streamlit application is designed as a lightweight portfolio companion to the original analysis. It uses the project's existing processed datasets and does not replace the original Python, SQL, PostgreSQL, or Power BI workflow.
+
+### Demo Features
+
+The application contains seven pages:
+
+1. **Home / Overview** — Summary of the study period, cities, monitoring stations, and analytical dataset.
+2. **City Analysis** — Compare PM2.5 and PM10 levels across selected cities and years.
+3. **Seasonal Analysis** — Explore seasonal pollution patterns and changes over time.
+4. **Pollution Events** — Examine selected extreme pollution events, compare event-day pollution with surrounding days, and review supporting context.
+5. **Diwali Analysis** — Compare PM2.5 levels before, during, and after Diwali across 2022–2024.
+6. **GRAP Stage IV** — Explore Delhi's PM2.5 levels before, during, and after the selected 2024 GRAP Stage IV period, with a comparable 2023 window for context.
+7. **AI-Assisted Explanations** — Review evidence-based draft explanations, human-validation notes, and final analyst explanations for selected pollution events.
+
+### Data Quality and Interpretation
+
+The application preserves the project's emphasis on transparent data analysis:
+
+- Potential data-quality anomalies are flagged rather than automatically removed when there is insufficient evidence to justify changing the original observations.
+- The repeated, unusually high PM2.5 readings identified at Hyderabad's Sanathnagar station are presented as a potential data-quality anomaly, not as a confirmed pollution spike.
+- Policy-period and festival comparisons are observational. Changes in pollution levels are not treated as proof that a single intervention or event caused them.
+- AI-assisted explanations are reviewed against the analytical evidence, and unsupported causal claims are avoided.
+
+### Run the Demo Locally
+
+From the project root, activate the project's Python virtual environment and install the Streamlit demo dependencies:
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements_streamlit.txt
+```
+
+Start the application:
+
+```powershell
+python -m streamlit run streamlit_app.py
+```
+
+Streamlit will display a local address in the terminal, typically `http://localhost:8501`, where the application can be opened in a browser.
+
+The application reads the processed CSV files stored in `data/processed/`. Keep the required files in their expected locations when running the demo locally.
+
+### Deployment
+
+The application is being prepared for deployment using Streamlit Community Cloud's free tier. The public demo link will be added here after deployment and verification are complete.
+
+**Live demo:** To be added after successful deployment.
+
 ## Excel Analysis
 
 Excel was used as a supporting tool to review and inspect exported analytical datasets.
@@ -291,6 +343,8 @@ The main data cleaning, validation, analysis, SQL work, policy and event analysi
 ```
 
 air quality and pollution analytics/
+│
+├── .gitignore
 │
 ├── data/
 │   ├── raw/
@@ -319,6 +373,8 @@ air quality and pollution analytics/
 │   └── validate_ai_output.py
 │
 ├── README.md
+├── requirements_streamlit.txt
+├── streamlit_app.py
 └── air_quality_pollution_analytics.pbix
 
 ```
@@ -360,6 +416,7 @@ The general workflow for reproducing the analysis is:
 5. Use the Python analysis scripts to generate event, policy, weather-context, and AI-validation datasets.
 6. Load the Power BI-ready dataset and supporting analysis files into Power BI.
 7. Open `air_quality_pollution_analytics.pbix` to explore the completed dashboard.
+8. To run the Streamlit interactive demo, follow the instructions in the Streamlit Interactive Demo section above.
 
 The exact processing steps and analytical outputs are documented throughout this README and in the project files.
 
